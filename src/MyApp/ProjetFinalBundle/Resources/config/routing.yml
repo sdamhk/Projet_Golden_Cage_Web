@@ -1,0 +1,6 @@
+my_app_projet_final_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: MyAppProjetFinalBundle:Default:index }
+MyAppProjetFinalBundle_client:
+    resource: "@MyAppProjetFinalBundle/Resources/config/routing/client.yml"
+    prefix:   /client

@@ -1,0 +1,43 @@
+MyApp\ProjetFinalBundle\Entity\client:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        cin:
+            type: string
+            length: 255
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+        gouvernorat:
+            type: string
+            length: 255
+        delegation:
+            type: string
+            length: 255
+        tel:
+            type: string
+            length: 255
+        adresse:
+            type: string
+            length: 255
+        password:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        login:
+            type: string
+            length: 255
+        dateNaissance:
+            type: date
+            column: date_naissance
+    lifecycleCallbacks: {  }

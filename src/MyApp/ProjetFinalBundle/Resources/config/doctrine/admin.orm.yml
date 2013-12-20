@@ -1,0 +1,19 @@
+MyApp\ProjetFinalBundle\Entity\admin:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        login:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        passwd:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
